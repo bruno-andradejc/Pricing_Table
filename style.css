@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+
+:root {
+    --yellow: #ffcc29;
+    --blue: #1d539e;
+    --gray: #828799;
+    --page-background: #f9fbfc;
+
+    font-family: 'Open Sans', sans-serif;
+  }
