@@ -10,6 +10,189 @@
     --blue: #1d539e;
     --gray: #828799;
     --page-background: #f9fbfc;
+  }
 
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  html body {
     font-family: 'Open Sans', sans-serif;
+    width: 100vw;
+  }
+
+  .cabeca {
+    background-color: var(--blue);
+    color: white;
+    text-align: center;
+  }
+
+  .cabeca h1 {
+    font-size: 48px;
+    padding-top: 100px;
+    font-weight: 700;
+
+  }
+
+  .cabeca p {
+    padding: 20px 0px 215px 0px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+
+  .caixa {
+    display: flex;
+    justify-content: space-evenly;
+    height: 470px;
+    margin-top: -150px;
+    margin-bottom: 100px;
+  }
+
+  .card1 {
+    background-color: var(--page-background);
+    width: 355px;
+    height: 100%;
+    border-radius: 10px;
+  }
+
+
+ .card1 #p1 {
+    padding-top: 10px;
+  }
+
+  .card1 p {
+    padding: 30px;
+    font-weight: 600;
+  }
+
+  .card1 li {
+    list-style: none;
+    padding-left: 30px;
+    
+  }
+
+  .card1 h2 {
+    font-weight: 700;
+    padding-left: 30px;
+  }
+
+  .card1 span {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  button {
+    width: 80%; 
+    padding: 15px;
+    margin-left: 33px;
+    border: 1.5px solid var(--blue);
+    background-color: transparent;
+    border-radius: 10px;
+    color: var(--blue);
+    margin-top: 90px;
+  }
+
+
+  .card2 {
+    background-color: var(--page-background);
+    width: 355px;
+    height: 100%;
+    border-radius: 10px;
+  }
+
+  .cima {
+    background-color: var(--yellow);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 0px;
+    border-radius: 8px 8px 0px 0px;
+  }
+
+  .cima h3 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--blue);
+  }
+
+  .cima a {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: var(--blue);
+    color: white;
+    padding: 8px 24px;
+    border-radius: 40px;
+  }
+
+  .card2 h2 {
+    font-weight: 700;
+    padding: 20px 0px 0px 30px;
+  }
+
+  .card2 span {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .card2 #p2 {
+    padding-top: 10px;
+  }
+
+  .card2 p {
+    padding: 30px;
+    font-weight: 600;
+  }
+
+  .card2 li {
+    list-style: none;
+    padding: 0px 30px;
+  }
+
+  .card2 button {
+    width: 80%;
+    padding: 12px;
+  }
+
+  .card3 {
+    background-color: var(--page-background);
+    width: 355px;
+    height: 100%;
+    border-radius: 10px;
+  } 
+
+  .card3 #p3 {
+    padding-top: 10px;
+  }
+
+  .card3 p {
+    padding: 30px;
+    font-weight: 600;
+  }
+
+  .card3 li {
+    list-style: none;
+    padding-left: 30px;
+  }
+
+  .card3 h2 {
+    font-weight: 700;
+    padding-left: 30px;
+  }
+
+  .card3 span {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+   .card3 button {
+    width: 80%;
+    padding: 12px;
+    border: 1px solid var(--blue);
+    background-color: transparent;
+    border-radius: 10px;
   }
